@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { LinearProgress } from "@mui/material";
+import './Section1a.css';
 
 
 const Spinner =(props)=>{
@@ -16,10 +17,10 @@ const Spinner =(props)=>{
     }, []);
     return(
         <div>
-            <div>
+            <div className="hd1">
         {props.text1}
           </div>
-        <div>
+        <div className='hd2'>
           {props.text2}
         </div>
         <div>

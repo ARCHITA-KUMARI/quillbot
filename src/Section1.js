@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Box, Grow } from "@mui/material";
-import Icon from './Icon';
+
 
 const Section1 = () => {
 
@@ -9,14 +9,12 @@ const Section1 = () => {
 
     return (
         <Box sx={{ display: 'flex'}}  >
-        <Grow in={checked}>
-          <Icon/>
-        </Grow>
-   <Grow in={checked}
-    style={{ transformOrigin: '0 0 0' }}
-    {...(checked ? { timeout: 1000 } : {})}>
-    <Icon/>
-  </Grow>
+        
+          <img src='https://images.ctfassets.net/1e6ajr2k4140/5EzkY6szmVKU40XPN5gi0Y/46b9ad689f271bbf6fd6877477572657/prod-ex-grammar.png' 
+          alt='example' sx={{px: 6 , ml:6}} height='50%' width='100%'
+           />
+        
+   
 </Box>
     )
 }
