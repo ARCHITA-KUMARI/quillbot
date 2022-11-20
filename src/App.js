@@ -9,12 +9,12 @@ const App = () => {
   
   return (
     
-    <div>
+    <div margin-bottom='30px'>
       <Grid container >
         <Grid item xs={6}>
         
           <header className='leftlogo'>
-             <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/QuillBot_2019.svg" alt="logo"  sx={{mt:8}} height='30' width='120' />
+             <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/QuillBot_2019.svg" alt="logo"  sx={{mt:12 }} height='30' width='120' />
 
           </header>
         </Grid>
@@ -46,6 +46,11 @@ const App = () => {
 
     
     </div>
+    <Grid container>
+      <Grid xs={12}>
+    <footer className='footer'>Quillbot@2022</footer>    
+      </Grid>
+      </Grid>
     </div>
   );
 }

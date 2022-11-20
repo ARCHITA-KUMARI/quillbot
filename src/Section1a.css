@@ -1,27 +1,24 @@
-.h1{
-
+.hd1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+      font-size: medium;
+    font-weight:bold;
+    text-align: left;
 }
 
-.h2{
-
-}
-
-.logo{
-
-
-}
-
-.h3{
-
-
-}
-
-.h4{
-
-
-}
-
-.h5{
-
+.hd2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+      font-size: medium;
     
 }
+
+.hd1:hover {
+    font-weight: 900;
+    color: #287561;
+  }
+
+  .hd2:hover {
+    font-weight: 400;
+    color: #286875;
+  }

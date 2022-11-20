@@ -22,7 +22,7 @@ const Section2 =() => {
       }));
 
     return (
-        <div>
+        <div margin-bottom='30px'>
          <Grid conatiner>
         <div align='center' className="h1">
             Up-Level Your Communication 
